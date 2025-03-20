@@ -32,6 +32,9 @@ public class Admin {
     @Column(nullable = false, unique = true)
     private String email;
 
+
+    private Role role;
+
    // @Lob
    // @Column(name = "profile_picture",columnDefinition = "LONGBLOB")
     //@Basic(fetch = FetchType.LAZY)
@@ -51,5 +54,7 @@ public class Admin {
     @JsonManagedReference
     @JsonProperty("adminId")
     private List<News> newsList;
+
+
 
 }
