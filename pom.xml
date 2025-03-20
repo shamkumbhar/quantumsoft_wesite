@@ -119,6 +119,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		 <finalName>quantomsoft</finalName>
 	</build>
 
 </project>
